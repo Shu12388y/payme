@@ -82,7 +82,7 @@ export class AuthModel {
 
       return {
         code: 200,
-        message: isUserExist,
+        message: isUserExist._id,
       };
     } catch (error) {
       return {
